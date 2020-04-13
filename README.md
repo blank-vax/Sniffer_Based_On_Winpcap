@@ -7,7 +7,5 @@
 
 ## 0x01 使用说明
 
-根目录下的`Sniffer.sln`是可以在Visual Studio中打开的解决方案Solution，使用者可以在VS中打开并进行相关编辑。
-
 Release文件夹中的`Sniffer.exe`为可执行文件，使用者可以用其进行本地网络环境流量包嗅探。
 
