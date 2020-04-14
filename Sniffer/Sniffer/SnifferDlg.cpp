@@ -71,10 +71,6 @@ CSnifferDlg::CSnifferDlg(CWnd* pParent /*=NULL*/)
 	m_totalnum = _T("");
 	m_httpnum = _T("");
 	m_dnsnum = _T("");
-	//  m_qqnum = _T("");
-	//	m_wangnum = _T("");
-	//	m_qqnum = _T("");
-	//	m_msnnum = _T("");
 }
 
 void CSnifferDlg::DoDataExchange(CDataExchange* pDX)

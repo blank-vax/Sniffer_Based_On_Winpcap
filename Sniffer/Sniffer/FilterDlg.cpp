@@ -64,35 +64,28 @@ void CFilterDlg::OnBnClickedOk()
 	// TODO: 在此添加控件通知处理程序代码
 	if (1 == m_tcp.GetCheck())   
 	{   
-		// 过滤TCP包
 		filtername += _T("(tcp and ip) or ");   
 	}   
 	if (1 == m_udp.GetCheck())   
 	{   
-		// 过滤UDP包
 		filtername += _T("(udp and ip) or ");   
 	}   
 	if (1 == m_arp.GetCheck())   
 	{   
-		// 过滤ARP包
 		filtername += _T("arp or ");   
 	}    
 	if (1 == m_rarp.GetCheck())   
 	{   
-		// 过滤RARP包
 		filtername += _T("rarp or ");   
 	}   
 	if (1 == m_icmp.GetCheck())   
 	{   
-		// 过滤ICMP包
 		filtername += _T("(icmp and ip) or ");   
 	} 
 	if (1 == m_igmp.GetCheck())   
 	{   
-		// 过滤IGMP包
 		filtername += _T("(igmp and ip) or ");   
 	}  
-	
 	filtername = filtername.Left(filtername.GetLength()-4);  //去掉多余的" or ",使得过滤规则成立
 
 	CDialogEx::OnOK();

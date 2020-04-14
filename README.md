@@ -1,4 +1,4 @@
-# Sniffer-Based-On-Winpcap
+﻿# Sniffer-Based-On-Winpcap
 ## 0x00 项目概述
 
 本产品使用C++语言编写，用于嗅探本机所处网络环境中通过特定网络适配器的流量包。
@@ -7,7 +7,11 @@
 
 ## 0x01 使用说明
 
-根目录下的`Sniffer.sln`是可以在Visual Studio中打开的解决方案Solution，使用者可以在VS中打开并进行相关编辑。
-
 Release文件夹中的`Sniffer.exe`为可执行文件，使用者可以用其进行本地网络环境流量包嗅探。
 
+## 0x02 嗅探器流程
+结合Winpcap库开发嗅探器的简要流程如下:
+![嗅探器流程.png-36.9kB][1]
+
+
+  [1]: http://static.zybuluo.com/B1ank/6sd4gs7luxlugje6so6d1s3j/%E5%97%85%E6%8E%A2%E5%99%A8%E6%B5%81%E7%A8%8B.png
